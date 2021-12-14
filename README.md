@@ -13,17 +13,17 @@ You will find 2 folders in the root which contain 2 different projects -
  1. CardGame - Game Console Project
  2. CardGame - xUnit Test Project
 
-Stay in root folder and  powershell Terminal and type to
+Stay in root folder and  open powershell Terminal/cmd and type below to
 
 1. Restore Packages <br/>
     ```html
       dotnet restore
     ```
-2. Compilation Instruction <br/>
+2. Compilate Solution <br/>
      ```html
-     dotnet run .\cardGame\CardGame.csproj
+     dotnet build
      ```
-3. Run Test Instruction <br/>
+3. Run Tests <br/>
     ```html
      dotnet test .\CardGameTest\
      ```
