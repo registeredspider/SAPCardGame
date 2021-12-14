@@ -17,17 +17,17 @@ Stay in root folder and  powershell Terminal and type to
 
 1. Restore Packages <br/>
     ```html
-      <span style="color: green">dotnet restore</span>
+      dotnet restore
     ```
 2. Compilation Instruction <br/>
      ```html
-      <span style="color: green">dotnet run .\cardGame\CardGame.csproj</span>
+     dotnet run .\cardGame\CardGame.csproj
      ```
 3. Run Test Instruction <br/>
     ```html
-      <span style="color: green">dotnet test .\CardGameTest\</span>
+     dotnet test .\CardGameTest\
      ```
 4. Start Game <br/>
     ```html
-       <span style="color: green">dotnet run .\cardGame\CardGame.csproj</span>
+     dotnet run .\cardGame\CardGame.csproj
     ```
