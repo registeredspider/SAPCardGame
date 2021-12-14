@@ -1,5 +1,6 @@
 # SAPCardGame
 This  game is built using .NetCore 3.1 Framework.
+Programming Language - c#
 
 System requirement 
  .Net Core 3.1 SDK
