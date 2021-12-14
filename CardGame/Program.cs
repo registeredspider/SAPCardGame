@@ -8,8 +8,8 @@ namespace CardGame
         {
             var shuffler = new FisherYatesShuffleAlgoImpl();
 
-            var player1 = new Player("[Michael]", shuffler);
-            var player2 = new Player("[Peter]", shuffler);
+            var player1 = new Player("Player 1", shuffler);
+            var player2 = new Player("Player 2", shuffler);
 
             var cardGame = new Game(player1, player2, shuffler, 40, 10);
 
