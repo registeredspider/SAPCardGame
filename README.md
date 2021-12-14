@@ -5,7 +5,7 @@ System requirement
  .Net Core 3.1 SDK
  .Net Core 3.1 Runtime
  
-
+#Instructions to run/test
 Download the code from Git. 
 
 You will find 2 folders in the root which contain 2 different projects - 
@@ -23,7 +23,7 @@ Stay in root folder and  open powershell Terminal/cmd and type below to
      ```html
      dotnet build
      ```
-3. Run Tests <br/>
+3. Run Tests (34 unit tests have been written) <br/>
     ```html
      dotnet test .\CardGameTest\
      ```
