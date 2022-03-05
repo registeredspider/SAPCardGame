@@ -47,10 +47,9 @@ namespace CardGameTest
             var shuffleAlgo = new FisherYatesShuffleAlgoImpl();
             var player = new Player("Test Player", shuffleAlgo);
 
-            //Act
+            //Assert
             Assert.Throws<Exception>(() => player.DrawCard()).Message.Equals("Cannot provide a card from an empty pile");
 
-            //Assert
         }
 
         [Fact]
